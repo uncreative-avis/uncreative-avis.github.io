@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>avis's portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="cachebust.js" defer></script>
+    
+    <link rel="icon" type="image/png" href="images/stylised_icon.png">
+  
+    <style>
+      .project-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0;
+      }
+
+      .project-card {
+        max-width: 400px;
+        box-shadow: 0px 0px 10px var(--shadow-glow);
+        border-radius: var(--radius-xl);
+        padding: 1.5em;
+        list-style-type: none;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+      }
+
+      .project-card img {
+        width: 100%;
+        height: 225px;
+        object-fit: cover;
+        display: block;
+        border-radius: var(--radius-lg);
+      }
+
+      .project-desc {
+        flex-grow: 1;
+        margin: 0;
+      }
+
+      /* application icons under thumbnails */
+      div.horizontal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+      }
+
+      p img, div.horizontal img {
+        height: 2em;
+        width: auto;
+      }
+
+      div.horizontal img {
+        margin-inline-end: 4px;
+      }
+
+      /* mobile wooo */
+      @media (max-width: 600px) {
+        .project-card {
+          max-width: 100em;
+        }
+        .project-card img {
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav><div id="nav-container"></div></nav>
+    <header><h1>my portfolio</h1></header>
+    
+    <noscript>
+      <h2><a href="index.html">BACK</a></h2>
+    </noscript>
+
+    <details class="box medium">
+      <summary>did you know i work on stuff sometimes? (click for details)</summary>
+      i have experience in <strong>clickteam fusion 2.5</strong>, and i'm currently learning <strong>godot</strong>!<br>
+      i specialise in <strong>UI design, programming, closed captioning (aka subtitles),</strong> and similar stuff.
+      this page is a list of notable projects i've worked on previously or am currently working on.<br><br>
+      
+      if you want to contact me to work on your project,
+      feel free to via my <a href="https://discordapp.com/users/490190083144548352/" target="_blank">discord</a>!
+      
+      <strong>be specific right off the bat</strong> -- tell me about your project and
+      <strong>include information about what you'd like me to do</strong>, as well as any other relevant information,
+      like <strong>project scope, my specific roles, and scalability</strong>.
+    </details>
+    
+    <div class="project-container">
+      <div class="project-card">
+        <h3>Treasure Island: Classic Remix</h3>
+
+        <a href="https://gamejolt.com/games/TICR/1003804" target="_blank" class="rotate">
+          <img src="images/ticr.webp" class="glow bordered" alt="TICR thumbnail. In a dark, foresty area, a man stands upright next to a Mickey Mouse silhouette. A massive face looking like distant mountains is visible.">
+        </a>
+
+        <div class="horizontal">
+          <img src="images/godot_icon.svg" title="Godot" alt="Godot Icon"> <img src="images/github_icon.svg" title="GitHub" alt="GitHub Icon"> (current)
+          <img src="images/clickteam_icon.webp" title="Clickteam Fusion 2.5" alt="Clickteam Icon"> (prev.)
+        </div>
+
+        <div class="box">
+          <strong class="label">Status:</strong> In development<br>
+          <strong class="label">Links:</strong> <a href="https://gamejolt.com/games/TICR/1003804" target="_blank">Game Jolt<span class="material-symbols-outlined">arrow_outward</span></a><br>
+          <strong class="label">Roles:</strong> Programming, UI Design, Writing Assistance, Captioning<br>
+        </div> 
+
+        <p class="project-desc box">
+          In the original Clickteam version, I handled UI, menus, and the creation of a demo.
+          In the new (in development) Godot version I'm handling more advanced things
+          such as a navigation system for point-and-click gameplay.
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>The Return to Freddy's 2 - Reimagined</h3>
+        
+        <a href="https://gamejolt.com/games/trtf2reimagined/674191" target="_blank" class="rotate">
+          <img src="images/2reimagined.webp" class="glow bordered" alt="TRTF 2 Reimagined thumbnail. A silhouette of bear head with a top hat floats in a dark void with a yellow-and-purple logo next to it.">
+        </a>
+
+        <div class="horizontal">
+          <img src="images/clickteam_icon.webp" title="Clickteam Fusion 2.5" alt="Clickteam Icon">
+        </div>
+
+        <div class="box">
+          <strong class="label">Status:</strong> Complete<br>
+          <strong class="label">Links:</strong> <a href="https://gamejolt.com/games/trtf2reimagined/674191" target="_blank">Game Jolt<span class="material-symbols-outlined">arrow_outward</span></a><br>
+          <strong class="label">Roles:</strong> Programming, UI Design, Captioning<br>
+          
+        </div>
+        <p class="project-desc box">
+          I was brought on the team fairly late in development for captioning,
+          but then I overhauled multiple systems and menus through patches until v1.3.0.
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>TRTF 2 - Tacoman Edition</h3>
+        <a href="https://gamejolt.com/games/TRTF2tacoupdate/1033032" target="_blank" class="rotate">
+          <img src="images/trtf2tacoman.webp" class="glow bordered" alt="TRTF 2 Tacoman Edition thumbnail. On a green and black gradient background, a stylised model of Freddy Fazbear is on the left, staring at us. To the right, the number 2 is visible in a digital clock font.">
+        </a>
+        
+        <div class="horizontal">
+          <img src="images/clickteam_icon.webp" title="Clickteam Fusion 2.5" alt="Clickteam Icon">
+        </div>
+        
+        <div class="box">
+          <strong class="label">Status:</strong> Complete; v2.0 in dev<br>
+          <strong class="label">Links:</strong> <a href="https://gamejolt.com/games/TRTF2tacoupdate/1033032" target="_blank">Game Jolt<span class="material-symbols-outlined">arrow_outward</span></a><br>
+          <strong class="label">Roles:</strong> Programming, Captioning, v2.0 Lead<br>
+        </div>
+        <p class="project-desc box">
+          I was brought on the team late in development to do captions for in-game calls,
+          and similarly to 2R, I was allowed to do additional UI work.
+          I'm currently the lead for the game's upcoming v2.0 update,
+          which seeks to improve visuals, improve UI, and fix balancing issues.
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>Late night VRChat OMORI Shenanigans</h3>
+        
+        <a href="https://youtu.be/aQ9OEltsxYQ?si=BgUeGh_DE5f_wE6_" target="_blank" class="rotate">
+          <img src="images/latenightvrchatomori.webp" class="glow bordered" alt="Late night VRChat OMORI Shenanigans thumbnail. An extreme closeup of a VRChat model of Sunny from Omori, with text on the top reading 'i LOVE omori!'. A small, oddly-angled picture of Basil is visible in the corner.">
+        </a>
+        
+        <div class="horizontal">
+          <img src="images/subtitle_edit_icon.png" title="Subtitle Edit" alt="Subtitle Edit Icon">
+        </div>
+
+        <div class="box">
+          <strong class="label">Status:</strong> Worked post-release<br>
+          <strong class="label">Links:</strong> <a href="https://youtu.be/aQ9OEltsxYQ?si=BgUeGh_DE5f_wE6_" target="_blank">YouTube<span class="material-symbols-outlined">arrow_outward</span></a><br>
+          <strong class="label">Roles:</strong> Captioning<br>
+        </div>
+        <p class="project-desc box">
+          I created custom, stylised closed captions for this video because I thought it was funny.
+          The creator of the video thought the captions were cool, asked to add them to the video itself,
+          and now through various tests I can fairly reliably caption things by ear.
+        </p>
+      </div>
+      <!--
+      TEMPLATE
+      <div class="project-card">
+        <h3>TITLE GOES HERE</h3>
+        <a href="LINK" target="_blank" class="rotate">
+          <img src="images/IMAGE.webp" class="glow bordered" alt="IMAGE DESC">
+        </a>
+        
+        <div class="horizontal">
+          <img src="images/icon.webp" title="TITLE GOES HERE" alt="ALT TEXT GOES HERE">
+        </div>
+        
+        <div class="box">
+          <strong class="label">Status:</strong> Status goes here<br>
+          <strong class="label">Links:</strong> <a href="" target="_blank">LINKS GO HERE<span class="material-symbols-outlined">arrow_outward</span></a><br>
+          <strong class="label">Roles:</strong> Roles go here<br>
+        </div>
+        <p class="project-desc box">
+          Project description goes here.
+        </p>
+      </div>
+      -->
+    </div>
+    <br>
+    <a href="#top">(BACK TO TOP)</a>
+  </body>
+</html>

@@ -1,0 +1,336 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@500&family=Atkinson+Hyperlegible+Next:wght@500&family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wdth,wght,ROND@6..144,112.5,600,100');
+
+@font-face {
+  font-family: OpenDyslexic;
+  src: url(OpenDyslexic-Regular.otf) format('opentype');
+}
+
+:root {
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-elastic: cubic-bezier(0.11, 1.365, 0, 1);
+
+
+  --body-font: var(--atkinson-next);
+  --lexend: 'Lexend', sans-serif;
+  --atkinson-next: 'Atkinson Hyperlegible Next', sans-serif;
+  --atkinson-mono: 'Atkinson Hyperlegible Mono', monospace;
+  --google-sans-flex: 'Google Sans Flex', sans-serif;
+  --roboto-flex: 'Roboto Flex', sans-serif;
+  --opendyslexic: 'OpenDyslexic', sans-serif;
+
+  --container-bg: rgba(0, 0, 0, 0.2);
+
+  --hover-size: 1.05;
+  --active-size: 0.95;
+
+  --rotate-angle: 1deg;
+
+  --bg-dark: #2f1d31;
+  --bg-med: #461d4d;
+  --bg-light: #805286;
+
+  --shadow-glow: #A349A4;
+  --glow-glow: #ff71d0;
+
+  --radius-sm: 0.25em;
+  --radius-lg: 0.33em;
+  --radius-xl: 1.25em;
+  --radius-pill: 9999px;
+
+  --link: rgb(156, 215, 255);
+  --link-hover: rgb(255, 183, 255);
+  --link-visited: #ff71d0; 
+}
+
+body {
+  background-image: linear-gradient(180deg, var(--bg-dark), var(--bg-med));
+  color: white;
+  font-family: var(--body-font);
+  font-size: 1.2rem;
+  /* text-align: center; */
+  overflow-wrap: break-word;
+  text-shadow: 
+    #000000 0px 0px 0.125em,
+    #000000 0.1em 0.1em 0.125em;
+  line-height: 1.5em;
+  padding: 1.5em;
+}
+
+/*
+div {
+  margin: 20px auto;
+  max-width: 800px;
+  justify-content: center;
+}
+*/
+
+.box {
+  background-color: var(--container-bg);
+  padding: 1em;
+  border-radius: var(--radius-lg);
+  /*
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 10px var(--shadow-glow);
+  */
+}
+
+ul.box {
+  padding-left: 40px;
+}
+
+.box a img {
+  display: block;
+  width: 150px;
+  max-width: 25vw;
+  margin: 10px auto;
+}
+
+summary {
+  cursor: pointer;
+  padding: 0.5em;
+  background-color: var(--bg-med);
+  border-radius: var(--radius-xl);
+  font-weight: bold;
+  transition: 0.3s;
+  transition-timing-function: var(--ease);
+}
+
+summary:hover {
+  transform: scale(calc(var(--hover-size) * 0.975));
+  -webkit-transform: scale(calc(var(--hover-size) * 0.975));
+  border-radius: var(--radius-lg);
+  background-color: var(--bg-light);
+  box-shadow: 0px 0px 15px var(--glow-glow);
+}
+
+summary:active {
+  transform: scale(calc(var(--active-size) * 1.05));
+  -webkit-transform: scale(calc(var(--active-size) * 1.05));
+  background-color: var(--bg-light);
+  box-shadow: 0px 0px 15px var(--glow-glow);
+}
+
+details {
+  margin: 20px auto;
+}
+
+details.medium {
+  max-width: 50em;
+}
+
+strong.label {
+  font-family: var(--google-sans-flex);
+  background-color: var(--bg-light);
+  border-radius: var(--radius-lg);
+  margin: 5px;
+  margin-left: 0px;
+  padding: 5px;
+  line-height: 2em;
+}
+
+a {
+  display: inline-block;
+  border-radius: 2.5em;
+  text-decoration: none;
+
+  transition: 0.3s;
+  transition-timing-function: var(--ease);
+}
+
+
+a img.glow {
+  transition: 0.3s;
+  transition-timing-function: var(--ease);
+}
+
+a:link {
+  color: var(--link);
+}
+
+a:visited {
+  color: var(--link-visited);
+}
+
+a:hover, a:focus {
+  border-radius: var(--radius-lg);
+  color: var(--link-hover);
+  background-color: var(--bg-light);
+  box-shadow: 0px 0px 15px var(--glow-glow);
+  transform: scale(var(--hover-size));
+  -webkit-transform: scale(var(--hover-size));
+}
+
+a:hover.rotate, a:focus.rotate {
+  transform: rotate(var(--rotate-angle)) scale(var(--hover-size));
+  -webkit-transform: rotate(var(--rotate-angle)) scale(var(--hover-size));
+}
+
+a:active {  
+  color: white;
+  border-radius: var(--radius-xl);
+  transform: scale(var(--active-size));
+  -webkit-transform: scale(var(--active-size));
+  box-shadow: 0px 0px 15px var(--glow-glow);
+}
+
+
+a.no-box {
+  background: none;
+  box-shadow: none;
+}
+
+a:hover img.glow {
+  filter: brightness(125%);
+  -webkit-filter: brightness(125%);
+}
+
+a:active img.glow {
+  filter: brightness(75%);
+  -webkit-filter: brightness(75%);
+}
+
+a:hover.rotate:active {
+  transform: rotate(calc(var(--rotate-angle) * -1)) scale(var(--active-size));
+  -webkit-transform: rotate(calc(var(--rotate-angle) * -1)) scale(var(--active-size));
+}
+
+img.bordered {
+  box-shadow: #000000 1px 1px 10px;
+}
+
+img.drop-shadow {
+  filter: drop-shadow(#000 0px 0px 5px);
+}
+
+li {
+  margin: 5px 5px;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--opendyslexic);
+  text-shadow: var(--shadow-glow) 1px 1px 10px;
+}
+
+h1.centred, h2.centred, h3.centred, h4.centred, h5.centred, h6.centred {
+  text-align: center;
+}
+
+/*
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8em;
+  }
+}
+*/
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: var(--bg-light) var(--bg-med);
+}
+
+/* UNUSED FOR NOW
+button {
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: 0.5s;
+  transition-timing-function: var(--ease);
+}
+
+button:hover, button:focus, button:active {
+  box-shadow: 0px 0px 10px var(--shadow-glow);
+  border-radius: var(--radius-lg);
+  filter: brightness(133%);
+  -webkit-transform: skew(-10deg);
+  transform: skew(-10deg);
+}
+*/
+
+.navbar ul{
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  background-color: var(--bg-med);
+  border-radius: var(--radius-lg);
+  
+  /* shit to make it scroll on mobile */
+  justify-content: flex-start;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  transition: 0.3s;
+  transition-timing-function: var(--ease);
+}
+.navbar a:hover, .navbar a:focus {
+  background-color: var(--bg-light);
+  box-shadow: 0px 2.5px 10px var(--shadow-glow);
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* media thing to reduce motion for people who have that on */
+@media (prefers-reduced-motion: reduce) {
+  a:hover, a:focus, a:active,
+  button:hover, button:focus, button:active {
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  body {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar ul {
+    justify-content: center;
+    overflow-x: visible;
+    white-space: normal;
+  }
+}
+
+::-webkit-scrollbar { background-color: transparent; }
+::-webkit-scrollbar-track { background: var(--bg-dark); }
+::-webkit-scrollbar-thumb {
+  background: var(--bg-light);
+  border-radius: 10px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  transition: 0.3s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #be92ce; 
+  border-radius: 10px;
+  border: 1.5px solid transparent;
+  background-clip: content-box;
+}
