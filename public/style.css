@@ -290,6 +290,33 @@ button:hover, button:focus, button:active {
   margin-top: 20px;
 }
 
+.sway-anim{
+  animation:
+    size-in 1s var(--ease),
+    sway 3s ease-in-out infinite;
+}
+
+@keyframes size-in {
+  from {
+    scale: 0%
+  }
+  to {
+    scale: 100%
+  }
+}
+
+@keyframes sway {
+  0% {
+    transform: rotate(-5deg)
+  }
+  50% {
+    transform: rotate(5deg)
+  }
+  100% {
+    transform: rotate(-5deg)
+  }
+}
+
 /* media thing to reduce motion for people who have that on */
 @media (prefers-reduced-motion: reduce) {
   a:hover, a:focus, a:active,
