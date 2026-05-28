@@ -6,7 +6,7 @@ name: Deploy to neocities
 on:
   push:
     branches:
-      - master
+      - main
 
 env:
   FORCE_COLOR: 1
@@ -38,5 +38,5 @@ jobs:
         cleanup: true
         dist_dir: public
         protected_files: 'dropbox/*'
-        neocities_supporter: true # set this to true if you have a supporter account and want to bypass unsuported files filter.
+        neocities_supporter: false # set this to true if you have a supporter account and want to bypass unsuported files filter.
         preview_before_deploy: true
