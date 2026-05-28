@@ -87,3 +87,5 @@
 * Changed px units for border radius vars to em
 * Changed instances of Google Sand Flex to OpenDyslexic (might change that back later)
 * Changed order of project cards in portfolio.html and adjusted some things in the work details   thing
+
+[ SWITCHED TO GITHUB AUTO DEPLOY ]
