@@ -23,19 +23,19 @@
   --roboto-flex: 'Roboto Flex', sans-serif;
   --opendyslexic: 'OpenDyslexic', sans-serif;
 
-  --container-bg: rgba(0, 0, 0, 0.2);
+  --container-bg: rgba(45, 29, 49, 0.75);
 
   --hover-size: 1.05;
   --active-size: 0.95;
 
   --rotate-angle: 1deg;
 
-  --bg-dark: #2f1d31;
-  --bg-med: #461d4d;
-  --bg-light: #805286;
+  --bg-dark: rgb(47, 29, 49);
+  --bg-med: rgb(70, 29, 77);
+  --bg-light: rgb(128, 82, 134);
 
-  --shadow-glow: #A349A4;
-  --glow-glow: #ff71d0;
+  --shadow-glow: rgb(163, 73, 164);
+  --glow-glow: rgb(255, 113, 208);
 
   --radius-sm: 0.25em;
   --radius-lg: 0.33em;
@@ -44,7 +44,7 @@
 
   --link: rgb(156, 215, 255);
   --link-hover: rgb(255, 183, 255);
-  --link-visited: #ff71d0; 
+  --link-visited: rgb(255, 113, 208); 
 }
 
 body {
@@ -359,7 +359,7 @@ button:hover, button:focus, button:active {
   transition: 0.3s;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #be92ce; 
+  background: rgb(190, 146, 206); 
   border-radius: 10px;
   border: 1.5px solid transparent;
   background-clip: content-box;
