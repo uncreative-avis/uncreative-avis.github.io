@@ -48,7 +48,10 @@
 }
 
 body {
-  background-image: linear-gradient(180deg, var(--bg-dark), var(--bg-med));
+  background-image: url('images/background.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  image-rendering: pixelated;
   color: white;
   font-family: var(--body-font);
   font-size: 1.2rem;
