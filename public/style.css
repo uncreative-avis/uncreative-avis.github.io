@@ -343,14 +343,7 @@ button:active {
 /* media thing to reduce motion for people who have that on */
 @media (prefers-reduced-motion: reduce) {
   a:hover, a:focus, a:active,
-  button:hover, button:focus, button:active {
-    transform: none !important;
-    transition: none !important;
-  }
-  button:hover, button:focus, button:active {
-    transform: none !important;
-    transition: none !important;
-  }
+  button:hover, button:focus, button:active,
   summary:hover, summary:focus, summary:active {
     transform: none !important;
     transition: none !important;
