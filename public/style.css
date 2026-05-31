@@ -275,6 +275,10 @@ button:hover, button:focus, button:active {
   white-space: nowrap;
 }
 
+.navbar ul li {
+  flex-shrink: 0;
+}
+
 .navbar a{
   color: white;
   text-decoration: none;
