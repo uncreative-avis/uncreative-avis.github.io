@@ -329,6 +329,10 @@ button:hover, button:focus, button:active {
     transform: none !important;
     transition: none !important;
   }
+  summary:hover, summary:focus, summary:active {
+    transform: none !important;
+    transition: none !important;
+  }
   .sway-anim {
     animation: none !important;
   }
