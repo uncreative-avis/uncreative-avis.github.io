@@ -355,6 +355,9 @@ button:active {
     transform: none !important;
     transition: none !important;
   }
+  html {
+    scroll-behavior: auto !important;
+  }
   .sway-anim {
     animation: none !important;
   }
