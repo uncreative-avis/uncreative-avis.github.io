@@ -367,6 +367,12 @@ button:hover, button:focus, button:active {
   font-size: 1rem;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 ::-webkit-scrollbar { background-color: transparent; }
 ::-webkit-scrollbar-track { background: var(--bg-dark); }
 ::-webkit-scrollbar-thumb {
