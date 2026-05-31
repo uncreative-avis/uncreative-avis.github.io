@@ -129,13 +129,14 @@ details.medium {
 }
 
 strong.label {
-  font-family: var(--google-sans-flex);
+  font-family: var(--opendyslexic);
   background-color: var(--bg-light);
   border-radius: var(--radius-lg);
   margin: 5px;
   margin-left: 0px;
   padding: 5px;
-  line-height: 2em;
+  padding-right: 10px;
+  line-height: 3rem;
 }
 
 a {
