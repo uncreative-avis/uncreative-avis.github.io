@@ -183,7 +183,6 @@ a:active {
   box-shadow: 0px 0px 15px var(--glow-glow);
 }
 
-
 a.no-box {
   background: none;
   box-shadow: none;
@@ -239,27 +238,41 @@ html {
   scrollbar-color: var(--bg-light) var(--bg-med);
 }
 
-/* UNUSED FOR NOW
 button {
-  padding: 15px 32px;
+  color: white;
+  background-color: var(--container-bg);
+  border: none;
+  padding: 12px 20px;
   text-align: center;
+  font-size: 1em;
+  text-shadow: 
+    #000000 0px 0px 0.125em,
+    #000000 0.1em 0.1em 0.125em;
   display: inline-block;
-  font-size: 16px;
   margin: 4px 2px;
   border-radius: var(--radius-lg);
   cursor: pointer;
-  transition: 0.5s;
+  box-shadow: 0px 0px 10px var(--shadow-glow); 
+  font-family: var(--body-font);
+  transition: 0.3s;
   transition-timing-function: var(--ease);
 }
 
-button:hover, button:focus, button:active {
-  box-shadow: 0px 0px 10px var(--shadow-glow);
+button:hover, button:focus {
+  background-color: var(--bg-light);
+  box-shadow: 0px 2.5px 10px var(--shadow-glow);
   border-radius: var(--radius-lg);
-  filter: brightness(133%);
-  -webkit-transform: skew(-10deg);
-  transform: skew(-10deg);
+  transform: scale(var(--hover-size));
+  -webkit-transform: scale(var(--hover-size));
 }
-*/
+
+button:active {
+  background-color: var(--bg-light);
+  box-shadow: 0px 0px 15px var(--glow-glow);
+  border-radius: var(--radius-xl);
+  transform: scale(var(--active-size));
+  -webkit-transform: scale(var(--active-size));
+}
 
 .navbar ul{
   list-style-type: none;
@@ -330,6 +343,10 @@ button:hover, button:focus, button:active {
 /* media thing to reduce motion for people who have that on */
 @media (prefers-reduced-motion: reduce) {
   a:hover, a:focus, a:active,
+  button:hover, button:focus, button:active {
+    transform: none !important;
+    transition: none !important;
+  }
   button:hover, button:focus, button:active {
     transform: none !important;
     transition: none !important;
