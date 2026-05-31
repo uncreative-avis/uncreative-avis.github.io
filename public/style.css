@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@500&family=Atkinson+Hyperlegible+Next:wght@500&family=Lexend&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wdth,wght,ROND@6..144,112.5,600,100');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_outward');
 
 @font-face {
   font-family: OpenDyslexic;
@@ -348,6 +349,10 @@ button:hover, button:focus, button:active {
     overflow-x: visible;
     white-space: normal;
   }
+}
+
+.material-symbols-outlined {
+  font-size: 1rem;
 }
 
 ::-webkit-scrollbar { background-color: transparent; }
