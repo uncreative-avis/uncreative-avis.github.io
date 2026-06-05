@@ -3,10 +3,16 @@ fetch('nav.html')
   .then(html => {
     const navContainer = document.getElementById('nav-container');
     navContainer.innerHTML = html;
-  });
+  }
+);
 
+// https://natclark.com/tutorials/javascript-reduced-motion/
+const isReduced = window.matchMedia(`(prefers-reduced-motion: reduce)`) === true || window.matchMedia(`(prefers-reduced-motion: reduce)`).matches === true;
+  
 window.addEventListener('scroll', () => {
-  document.body.style.backgroundPositionY = `${window.scrollY * -0.25}px`;
+  if (!isReduced) {
+    document.body.style.backgroundPositionY = `${window.scrollY * -0.25}px`;
+  }
 });
 
 function getDateShit() {
