@@ -35,9 +35,9 @@
 
   --rotate-angle: 1deg;
 
-  --bg-dark: rgb(47, 29, 49);
-  --bg-med: rgb(70, 29, 77);
-  --bg-light: rgb(128, 82, 134);
+  --bg-dark: rgba(47, 29, 49, 0.75);
+  --bg-med: rgba(70, 29, 77, 0.75);
+  --bg-light: rgba(128, 82, 134, 0.75);
 
   --shadow-glow: rgb(163, 73, 164);
   --glow-glow: rgb(255, 113, 208);
