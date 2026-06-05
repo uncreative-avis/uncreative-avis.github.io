@@ -2,9 +2,12 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@500&family=Atkinson+Hyperlegible+Next:wght@500&family=Lexend&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wdth,wght,ROND@6..144,112.5,600,100');
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_outward,arrow_upward');
+
+/* icons */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_outward,arrow_upward,block,folder,home,kid_star,person_heart');
 
 @font-face {
   font-family: OpenDyslexic;
@@ -382,7 +385,13 @@ button:active {
 }
 
 .material-symbols-outlined {
-  font-size: 1rem;
+  font-size: 1.4rem;
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 20;
+  vertical-align: middle;
 }
 
 .center {
