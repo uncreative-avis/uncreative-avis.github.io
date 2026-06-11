@@ -251,6 +251,7 @@ button {
   background-color: var(--container-bg);
   border: none;
   padding: 12px 20px;
+  gap: 1rem;
   text-align: center;
   font-size: 1em;
   text-shadow: 
