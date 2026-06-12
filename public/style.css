@@ -42,9 +42,10 @@
   --shadow-glow: rgb(163, 73, 164);
   --glow-glow: rgb(255, 113, 208);
 
-  --radius-sm: 0.25em;
-  --radius-lg: 0.33em;
-  --radius-xl: 1.25em;
+  --radius-sm:   0.25em;
+  --radius-lg:   0.33em;
+  --radius-xl:   1.25em;
+  --radius-xxl:  2.50em;
   --radius-pill: 9999px;
 
   --link: rgb(156, 215, 255);
@@ -153,7 +154,7 @@ strong.label {
 
 a {
   display: inline-block;
-  border-radius: 2.5em;
+  border-radius: var(--radius-xxl);
   text-decoration: none;
 
   transition: 0.3s;
