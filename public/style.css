@@ -225,6 +225,12 @@ img.drop-shadow {
   filter: drop-shadow(#000 0px 0px 5px);
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--link-hover);
+  outline-offset: 3px;
+}
+
 .socials {
   display: flex;
   flex-wrap: wrap;
