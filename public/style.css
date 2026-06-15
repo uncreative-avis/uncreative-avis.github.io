@@ -3,7 +3,7 @@
    "how to change link color." */
 
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@500&family=Atkinson+Hyperlegible+Next:wght@500&family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@500&family=Lexend&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wdth,wght,ROND@6..144,112.5,600,100');
 
 /* icons */
@@ -23,9 +23,7 @@
   --body-font: var(--atkinson-next);
   --lexend: 'Lexend', sans-serif;
   --atkinson-next: 'Atkinson Hyperlegible Next', sans-serif;
-  --atkinson-mono: 'Atkinson Hyperlegible Mono', monospace;
   --google-sans-flex: 'Google Sans Flex', sans-serif;
-  --roboto-flex: 'Roboto Flex', sans-serif;
   --opendyslexic: 'OpenDyslexic', sans-serif;
 
   --container-bg: rgba(45, 29, 49, 0.75);
