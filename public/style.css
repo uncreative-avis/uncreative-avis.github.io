@@ -225,6 +225,14 @@ img.drop-shadow {
   filter: drop-shadow(#000 0px 0px 5px);
 }
 
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
 li {
   margin: 5px 5px;
   text-align: left;
