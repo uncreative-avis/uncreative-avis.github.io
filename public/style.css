@@ -420,15 +420,25 @@ button:active {
   align-items: center;
 }
 
-::-webkit-scrollbar { background-color: transparent; }
-::-webkit-scrollbar-track { background: var(--bg-dark); }
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--container-bg);
+  border-radius: var(--radius-pill);
+}
+
 ::-webkit-scrollbar-thumb {
   background: var(--bg-light);
-  border-radius: 10px;
+  border-radius: var(--radius-pill);
   border: 3px solid transparent;
   background-clip: content-box;
   transition: 0.3s;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(190, 146, 206); 
   border-radius: 10px;
