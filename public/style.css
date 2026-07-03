@@ -20,11 +20,12 @@
   --ease-elastic: cubic-bezier(0.11, 1.365, 0, 1);
 
 
-  --body-font: var(--atkinson-next);
   --lexend: 'Lexend', sans-serif;
   --atkinson-next: 'Atkinson Hyperlegible Next', sans-serif;
   --google-sans-flex: 'Google Sans Flex', sans-serif;
   --opendyslexic: 'OpenDyslexic', sans-serif;
+  --body-font: var(--atkinson-next);
+  --title-font: var(--opendyslexic);
 
   --container-bg: rgba(45, 29, 49, 0.75);
 
@@ -61,29 +62,16 @@ body {
   font-size: 1.2rem;
   /* text-align: center; */
   overflow-wrap: break-word;
-  text-shadow: 
-    #000000 0px 0px 0.125em,
-    #000000 0.1em 0.1em 0.125em;
+  text-shadow: #000000 0.1em 0.1em 0.125em;
   line-height: 1.5em;
   padding: 1.5em;
 }
-
-/*
-div {
-  margin: 20px auto;
-  max-width: 800px;
-  justify-content: center;
-}
-*/
 
 .box {
   background-color: var(--container-bg);
   padding: 1em;
   border-radius: var(--radius-xl);
   box-shadow: 0px 0px 10px var(--shadow-glow);
-  /*
-  backdrop-filter: blur(5px);
-  */
 }
 
 .blur {
@@ -143,7 +131,7 @@ details.long {
 }
 
 strong.label {
-  font-family: var(--opendyslexic);
+  font-family: var(--title-font);
   font-size: 1rem;
   background-color: var(--bg-light);
   backdrop-filter: blur(5px);
@@ -248,7 +236,7 @@ li {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--opendyslexic);
+  font-family: var(--title-font);
   text-shadow: var(--shadow-glow) 1px 1px 10px;
 }
 
@@ -266,7 +254,6 @@ h1.centred, h2.centred, h3.centred, h4.centred, h5.centred, h6.centred {
 
 html {
   scroll-behavior: smooth;
-  scrollbar-color: var(--bg-light) var(--bg-med);
 }
 
 button {
@@ -451,7 +438,6 @@ button:active {
 
 ::-webkit-scrollbar-track {
   background: var(--container-bg);
-  border-radius: var(--radius-pill);
 }
 
 ::-webkit-scrollbar-thumb {
