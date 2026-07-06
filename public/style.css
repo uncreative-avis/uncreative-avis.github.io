@@ -240,10 +240,6 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: var(--shadow-glow) 1px 1px 10px;
 }
 
-h1.centred, h2.centred, h3.centred, h4.centred, h5.centred, h6.centred {
-  text-align: center;
-}
-
 /*
 @media (max-width: 600px) {
   h1 {
