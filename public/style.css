@@ -122,12 +122,14 @@ details {
   margin: 20px auto;
 }
 
-details.medium {
+.medium {
   max-width: 50em;
+  margin: 0 auto;
 }
 
-details.long {
+.long {
   max-width: 66em;
+  margin: 0 auto;
 }
 
 strong.label {
@@ -227,6 +229,7 @@ button:focus-visible {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
   gap: 50px;
 }
 
