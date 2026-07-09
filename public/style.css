@@ -64,7 +64,7 @@ body {
   overflow-wrap: break-word;
   text-shadow: #000000 0.1em 0.1em 0.125em;
   line-height: 1.5em;
-  padding: 1.5em;
+  padding: 1.5rem;
 }
 
 .box {
@@ -76,14 +76,15 @@ body {
 
 .blur {
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .box.dark {
   background-color: rgba(15, 15, 15, 0.75);
 }
 
-ul.box {
-  padding-left: 40px;
+.box ul {
+  padding-left: 3rem;
 }
 
 .box a img {
@@ -99,8 +100,7 @@ summary {
   background-color: var(--bg-med);
   border-radius: var(--radius-xl);
   font-weight: bold;
-  transition: 0.3s;
-  transition-timing-function: var(--ease);
+  transition: all 0.3s var(--ease);
 }
 
 summary:hover {
@@ -137,6 +137,7 @@ strong.label {
   font-size: 1rem;
   background-color: var(--bg-light);
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   border-radius: var(--radius-lg);
   margin: 5px;
   margin-left: 0px;
@@ -150,14 +151,12 @@ a {
   border-radius: var(--radius-xxl);
   text-decoration: none;
 
-  transition: 0.3s;
-  transition-timing-function: var(--ease);
+  transition: all 0.3s var(--ease);
 }
 
 
 a img.glow {
-  transition: 0.3s;
-  transition-timing-function: var(--ease);
+  transition: all 0.3s var(--ease);
 }
 
 a:link {
@@ -230,7 +229,17 @@ button:focus-visible {
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  gap: 50px;
+  gap: 2.5rem;
+}
+
+.socials a {
+  width: 150px;
+}
+
+.socials a img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 li {
@@ -242,14 +251,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--title-font);
   text-shadow: var(--shadow-glow) 1px 1px 10px;
 }
-
-/*
-@media (max-width: 600px) {
-  h1 {
-    font-size: 1.8em;
-  }
-}
-*/
 
 html {
   scroll-behavior: smooth;
@@ -272,9 +273,9 @@ button {
   cursor: pointer;
   box-shadow: 0px 0px 10px var(--shadow-glow); 
   font-family: var(--body-font);
-  transition: 0.3s;
-  transition-timing-function: var(--ease);
+  transition: all 0.3s var(--ease);
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 button:hover, button:focus {
@@ -295,6 +296,7 @@ button:active {
 
 .navbar {
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .navbar ul{
@@ -322,9 +324,9 @@ button:active {
   padding: 15px;
   display: block;
   text-align: center;
-  transition: 0.3s;
-  transition-timing-function: var(--ease);
+  transition: all 0.3s var(--ease);
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 .navbar a:hover, .navbar a:focus {
   background-color: var(--bg-light);
@@ -394,14 +396,21 @@ button:active {
 }
 
 /* mobile */
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .flex-container {
     flex-direction: column;
     text-align: center;
   }
+  .socials {
+    gap: 1.25rem;
+  }
+
+  .socials a {
+    width: 100px;
+  }
 
   body {
-    padding: 10px;
+    padding: 1rem;
   }
 }
 
@@ -449,7 +458,6 @@ button:active {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(190, 146, 206); 
-  border-radius: 10px;
   border: 1.5px solid transparent;
   background-clip: content-box;
 }
