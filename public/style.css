@@ -37,6 +37,7 @@
 
   --body-font: var(--atkinson-next);
   --title-font: var(--opendyslexic);
+  --nav-font: var(--google-sans-flex);
 
   --container-bg: rgba(45, 29, 49, 0.75);
 
@@ -319,7 +320,7 @@ button:active {
 }
 
 .navbar ul{
-  font-family: var(--google-sans-flex);
+  font-family: var(--nav-font);
   list-style-type: none;
   display: flex;
   gap: 10px;
