@@ -20,10 +20,21 @@
   --ease-elastic: cubic-bezier(0.11, 1.365, 0, 1);
 
 
-  --lexend: 'Lexend', sans-serif;
-  --atkinson-next: 'Atkinson Hyperlegible Next', sans-serif;
-  --google-sans-flex: 'Google Sans Flex', sans-serif;
-  --opendyslexic: 'OpenDyslexic', sans-serif;
+  --lexend: 'Lexend',
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Tahoma, Verdana, sans-serif;
+    
+  --atkinson-next: 'Atkinson Hyperlegible Next',
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Arial, Tahoma, Verdana, sans-serif;
+    
+  --google-sans-flex: 'Google Sans Flex',
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Tahoma, Verdana, sans-serif;
+    
+  --opendyslexic: 'OpenDyslexic',
+    "Comic Sans MS", sans-serif;
+
   --body-font: var(--atkinson-next);
   --title-font: var(--opendyslexic);
 
