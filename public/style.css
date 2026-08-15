@@ -460,8 +460,8 @@ button:active {
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
-  height: 12px;
+  width: 0.66rem;
+  height: 0.66rem;
   background: transparent;
 }
 
@@ -470,15 +470,14 @@ button:active {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--bg-light);
+  background: var(--link-visited);
   border-radius: var(--radius-pill);
-  border: 3px solid transparent;
+  border: 1px solid transparent;
   background-clip: content-box;
-  transition: 0.3s;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(190, 146, 206); 
+  background: var(--link-hover); 
   border: 1.5px solid transparent;
   background-clip: content-box;
 }
