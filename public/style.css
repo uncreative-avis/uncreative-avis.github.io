@@ -414,31 +414,32 @@ button:active {
   }
 }
 
-/* mobile */
-@media (max-width: 650px) {
-  .flex-container {
-    flex-direction: column;
-    text-align: center;
-  }
-  .socials {
-    gap: 1.25rem;
-  }
-
-  .socials a {
-    width: 100px;
-  }
-
-  body {
-    padding: 1rem;
-  }
-}
-
-/* media query to make the navbar scrollable on smaller screens */
-@media (max-width: 1000px) {
+/* stuff for smaller screens */
+@media (max-width: 1024px) {
+  /* make the navbar scrollable */
   .navbar ul {
     justify-content: flex-start;
     overflow-x: auto;
     white-space: nowrap;
+  }
+
+  /* make flex-container that has "hello" text centre stuff */
+  .flex-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* shrink and tighten spacing for the socials buttons */
+  .socials {
+    gap: 1.25rem;
+  }
+  .socials a {
+    width: 100px;
+  }
+
+  /* reduce padding */
+  body {
+    padding: 1rem;
   }
 }
 
