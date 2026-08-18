@@ -19,6 +19,6 @@ function getDateShit() {
   const modifiedDate = new Date(document.lastModified);
   const options = { day: 'numeric', month: 'long', year: 'numeric' };
   document.getElementById('lastUpdateDate').textContent = modifiedDate.toLocaleDateString('en-GB', options);
-}
+};
 
-getDateShit()
+getDateShit();
