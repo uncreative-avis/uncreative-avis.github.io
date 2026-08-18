@@ -158,8 +158,6 @@ strong.label {
   font-family: var(--title-font);
   font-size: 1rem;
   background-color: var(--bg-light);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
   border-radius: var(--radius-lg);
   margin: 5px;
   margin-left: 0px;
@@ -282,6 +280,11 @@ h1, h2, h3, h4, h5, h6 {
 
 html {
   scroll-behavior: smooth;
+}
+
+hr {
+  width: 75%;
+  border-color: var(--shadow-glow);
 }
 
 button {
