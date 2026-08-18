@@ -39,7 +39,15 @@
   --title-font: var(--opendyslexic);
   --nav-font: var(--opendyslexic);
 
-  --container-bg: rgba(45, 29, 49, 0.75);
+  --text-color: var(--default-text-color);
+
+  --default-text-color: #ffffff;
+  --alt-text-color: #ffff00;
+
+  --container-bg: var(--default-container-bg-color);
+
+  --default-container-bg-color: rgba(45, 29, 49, 0.75);
+  --alt-container-bg-color: rgb(0, 0, 0, 1.0);
 
   --hover-size: 1.05;
   --active-size: 0.95;
@@ -72,7 +80,7 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
   image-rendering: pixelated;
-  color: white;
+  color: var(--text-color);
   font-family: var(--body-font);
   font-size: 1.2rem;
   /* text-align: center; */
@@ -196,7 +204,7 @@ a:hover.rotate, a:focus.rotate {
 }
 
 a:active {  
-  color: white;
+  color: var(--text-color);;
   border-radius: var(--radius-xl);
   transform: scale(var(--active-size));
   -webkit-transform: scale(var(--active-size));
@@ -277,7 +285,7 @@ html {
 }
 
 button {
-  color: white;
+  color: var(--text-color);
   background-color: var(--container-bg);
   border: none;
   padding: 12px 20px;
@@ -339,7 +347,7 @@ button:active {
 }
 
 .navbar a{
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
   padding: 15px;
   display: block;
