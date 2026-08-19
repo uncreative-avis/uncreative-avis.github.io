@@ -15,14 +15,24 @@
     <nav><div id="nav-container"></div></nav> <!-- navigation bar -->
     
     <div class="center box">
-      <div class="flex-container" style="gap: 2em; flex-wrap: wrap;">
-        <img src="images/stylised_icon.png" class="sway-anim drop-shadow" style="height: 5em; border-radius: var(--radius-xl);"
-        alt="A rotating icon showing a cat head shape with an ear ring on its left ear, a stylised letter 'A' in the middle.">
-        <div>
-          <header><h1>hi, i'm avis!</h1></header>
-          <h3>welcome to my corner of the internet!</h3>
+      <div class="flex-container" style="flex-direction: column; gap: 0.5em;">
+        <div class="flex-container" style="gap: 2em;">
+          <img src="images/stylised_icon.png" class="sway-anim drop-shadow" style="height: 5em; border-radius: var(--radius-xl);"
+          alt="A rotating icon showing a cat head shape with an ear ring on its left ear, a stylised letter 'A' in the middle.">
+          <div>
+            <header><h1>hi, i'm avis!</h1></header>
+            <h3>welcome to my corner of the internet!</h3>
+          </div>
         </div>
+        <hr>
+        <!--
+        <button onclick="randomizeSplashText()" title="asdsa">
+          <span class="material-symbols-outlined" aria-hidden="true">refresh</span> refresh splash
+        </button>
+        -->
+        <h5 id="splash">if you're seeing this i fucked up my js lol</h5>
       </div>
+      
 
       <noscript>
         <div class="box dark">
@@ -71,7 +81,7 @@
     
     <p class="box">
       Last updated on <span id='lastUpdateDate'></span><br>
-      If the site looks kinda messed up, try clearing your cache.
+      I update this site fairly often -- make sure you clear your cache!
       On desktop you can do this quickly by pressing <code>CTRL + F5</code>.
     </p>
 
