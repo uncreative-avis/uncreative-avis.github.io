@@ -16,9 +16,11 @@
 }
 
 :root {
+
+  /* CONSTANTS */
+
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-elastic: cubic-bezier(0.11, 1.365, 0, 1);
-
 
   --lexend: 'Lexend',
     -apple-system, BlinkMacSystemFont,
@@ -35,19 +37,11 @@
   --opendyslexic: 'OpenDyslexic',
     "Comic Sans MS", sans-serif;
 
-  --body-font: var(--atkinson-next);
-  --title-font: var(--opendyslexic);
-  --nav-font: var(--opendyslexic);
-
-  --text-color: var(--default-text-color);
-
-  --default-text-color: #ffffff;
-  --alt-text-color: #ffff00;
-
-  --container-bg: var(--default-container-bg-color);
+  --default-text-color: rgb(255, 255, 255);
+  --alt-text-color: rgb(255, 255, 0);
 
   --default-container-bg-color: rgba(45, 29, 49, 0.75);
-  --alt-container-bg-color: rgb(0, 0, 0, 1.0);
+  --alt-container-bg-color: rgb(0, 0, 0);
 
   --hover-size: 1.05;
   --active-size: 0.95;
@@ -73,6 +67,17 @@
 
   --red: rgb(255, 113, 113);
   --green: rgb(156, 255, 177);
+
+  /* CONFIGURABLE SCHTUFF */
+
+  --body-font: var(--atkinson-next);
+  --title-font: var(--opendyslexic);
+  --nav-font: var(--opendyslexic);
+
+  --text-color: var(--default-text-color);
+
+  --container-bg: var(--default-container-bg-color);
+  --label-bg: var(--bg-light);
 }
 
 body {
@@ -157,7 +162,7 @@ details {
 strong.label {
   font-family: var(--title-font);
   font-size: 1rem;
-  background-color: var(--bg-light);
+  background-color: var(--label-bg);
   border-radius: var(--radius-lg);
   margin: 5px;
   margin-left: 0px;
