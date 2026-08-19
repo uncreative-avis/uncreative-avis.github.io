@@ -310,8 +310,6 @@ button {
   box-shadow: 0px 0px 10px var(--shadow-glow); 
   font-family: var(--body-font);
   transition: all 0.3s var(--ease);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
 }
 
 button:hover, button:focus {
@@ -331,8 +329,8 @@ button:active {
 }
 
 .navbar {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .navbar ul{
@@ -361,12 +359,8 @@ button:active {
   display: block;
   text-align: center;
   transition: all 0.3s var(--ease);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-}
-.navbar a:hover, .navbar a:focus {
-  background-color: var(--bg-light);
-  box-shadow: 0px 0px 10px var(--shadow-glow);
+  backdrop-filter: blur(2.5px);
+  -webkit-backdrop-filter: blur(2.5px);
 }
 
 .flex-container {
