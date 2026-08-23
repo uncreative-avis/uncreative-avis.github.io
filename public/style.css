@@ -342,6 +342,7 @@ button:active {
   background-color: var(--container-bg);
   border-radius: var(--radius-xl);
   box-shadow: 0px 0px 10px var(--shadow-glow);
+  padding: 0;
   
   /* stuff to make it so that the navbar is NOT scrollable on smaller screens */
   justify-content: center;
