@@ -53,9 +53,12 @@ const randomSplashMessages = [
   `cringe culture is dead do whatever you want forever`,
   `undertale taught me gay people exist and look at me now`,
   `if you read this, you are gay lmao`,
-  `♪ we gotta get you working overtime / no second guessing when your life's on the line ♪`, // atsuover - OVERTiME
   `[♪ amen break sample plays]`,
   `it is 5am on August 20th, 2026 as i type this i need to go to bed`,
+  
+  // LYRICS
+  `♪ we gotta get you working overtime / no second guessing when your life's on the line ♪`, // atsuover - OVERTiME
+  `♪ I've been everywhere / Through every undefended door ♪`, // Ninajirachi & Porter Robinson - WannaCry
   
   // INSIDE JOKES
   `i keep accidentally typing lesbian instead of vegan i need to go to bed`,
