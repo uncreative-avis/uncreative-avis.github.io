@@ -21,6 +21,17 @@ function getDateShit() {
   document.getElementById('lastUpdateDate').textContent = modifiedDate.toLocaleDateString('en-GB', options);
 };
 
+function showAO3Warning() {
+    
+  const text = `Heads up: My AO3 has (or at least *will* have) some works that have selfshipping and some potentially upsetting themes. Tags are your friend!\n\nPress OK to proceed or Cancel to go back.`;
+
+  const link = "https://archiveofourown.org/users/avis_just_exists/";
+
+  if (confirm(text) === true) {
+    window.open(link, "_blank");
+  }
+};
+
 const googleDocCount = 0;
 
 const randomSplashMessages = [
