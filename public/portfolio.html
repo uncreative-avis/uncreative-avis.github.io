@@ -26,16 +26,17 @@
         padding: 1.5em;
         
         display: flex;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 300px;
         flex-direction: column;
         gap: 1em;
       }
 
       .project-card img {
         width: 100%;
-        height: 225px;
-        object-fit: cover;
         display: block;
-        border-radius: var(--radius-lg);
+        border-radius: var(--radius-xl);
       }
 
       .project-desc {
@@ -52,22 +53,16 @@
         gap: 1em;
       }
 
-      p img, div.horizontal img {
+      div.horizontal img {
         height: 2em;
+        border-radius: 0;
         width: auto;
       }
 
-      div.horizontal img {
-        margin-inline-end: 4px;
-      }
-
-      /* mobile wooo */
-      @media (max-width: 600px) {
+      /* smaller screen stuff */
+      @media (max-width: 1024px) {
         .project-card {
-          max-width: 100em;
-        }
-        .project-card img {
-          height: auto;
+          max-width: min(500px, 95vw);
         }
       }
     </style>
@@ -116,6 +111,7 @@
         as well as any other relevant information,
         like <strong>project scope, my specific roles, and scalability</strong>.
       </details>
+      Page last updated (including CSS updates) on <span id='lastUpdateDate'></span><br>
     </div>
     
     <h1>GAMEDEV</h1>
@@ -128,10 +124,8 @@
           <img src="images/portfolio/ticr.webp" class="glow bordered" alt="TICR thumbnail. In a dark, foresty area, a man stands upright next to a Mickey Mouse silhouette. A massive face looking like distant mountains is visible.">
         </a>
 
-        <div class="horizontal">
+        <div class="horizontal box">
           <img src="images/portfolio/godot_icon.svg" title="Godot 4.7" alt="Godot Icon"> <img src="images/portfolio/github_icon.svg" title="GitHub" alt="GitHub Icon">
-          <!--(current)
-          <img src="images/portfolio/clickteam_icon.webp" title="Clickteam Fusion 2.5" alt="Clickteam Icon"> (prev.)-->
         </div>
 
         <div class="box">
@@ -157,7 +151,7 @@
           <img src="images/portfolio/2reimagined.webp" class="glow bordered" alt="TRTF 2 Reimagined thumbnail. A silhouette of bear head with a top hat floats in a dark void with a yellow-and-purple logo next to it.">
         </a>
 
-        <div class="horizontal">
+        <div class="horizontal box">
           <img src="images/portfolio/clickteam_icon.webp" title="Clickteam Fusion 2.5" alt="Clickteam Icon">
         </div>
 
@@ -182,7 +176,7 @@
           <img src="images/portfolio/trtf2tacoman.webp" class="glow bordered" alt="TRTF 2 Tacoman Edition thumbnail. On a green and black gradient background, a stylised model of Freddy Fazbear is on the left, staring at us. To the right, the number 2 is visible in a digital clock font.">
         </a>
         
-        <div class="horizontal">
+        <div class="horizontal box">
           <img src="images/portfolio/clickteam_icon.webp" title="Clickteam Fusion 2.5" alt="Clickteam Icon">
         </div>
         
@@ -197,10 +191,6 @@
         <p class="project-desc box">
           I was brought on the team late in development to do captions for in-game calls,
           and similarly to 2R, I was allowed to do additional UI work.
-          <!--
-          A v2.0 update is currently in development,
-          which seeks to improve visuals, improve UX/UI, and fix balancing issues.
-          -->
         </p>
       </div>
     </div>
@@ -215,7 +205,7 @@
           <img src="images/portfolio/latenightvrchatomori.webp" class="glow bordered" alt="Late night VRChat OMORI Shenanigans thumbnail. An extreme closeup of a VRChat model of Sunny from Omori, with text on the top reading 'i LOVE omori!'. A small, oddly-angled picture of Basil is visible in the corner.">
         </a>
         
-        <div class="horizontal">
+        <div class="horizontal box">
           <img src="images/portfolio/subtitle_edit_icon.png" title="Subtitle Edit" alt="Subtitle Edit Icon">
         </div>
 
@@ -239,7 +229,7 @@
           <img src="images/portfolio/ring_of_thorns.webp" class="glow bordered" alt="Ring of Thorns Animatic thumbnail. A greyscale closeup of Kris and Noelle from DELTARUNE. Kris has a blank expression, staring intensely at Noelle, gripping her wrist tightly. Noeelle is staring back in fear.">
         </a>
         
-        <div class="horizontal">
+        <div class="horizontal box">
           <img src="images/portfolio/subtitle_edit_icon.png" title="Subtitle Edit" alt="Subtitle Edit Icon">
         </div>
 
@@ -263,7 +253,7 @@
           <img src="images/portfolio/IMAGE.webp" class="glow bordered" alt="IMAGE DESC">
         </a>
         
-        <div class="horizontal">
+        <div class="horizontal box">
           <img src="images/portfolio/icon.webp" title="TITLE GOES HERE" alt="ALT TEXT GOES HERE">
         </div>
         
