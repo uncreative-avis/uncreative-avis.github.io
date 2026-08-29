@@ -199,7 +199,7 @@ a:hover.rotate, a:focus.rotate {
 }
 
 a:active {  
-  color: var(--text-color);;
+  color: var(--text-color);
   border-radius: var(--radius-xl);
   transform: scale(var(--active-size));
   -webkit-transform: scale(var(--active-size));
