@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@500&family=Lexend&display=swap');
 
 /* icons */
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_outward,arrow_upward,assignment,block,check,deployed_code,folder,home,info,kid_star,link_2,person_heart,refresh,subtitles');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_outward,arrow_upward,assignment,block,check,deployed_code,folder,home,info,kid_star,link_2,person_heart,refresh,question_mark,subtitles');
 
 @font-face {
   font-family: OpenDyslexic;
@@ -58,6 +58,7 @@
 
   --red: rgb(255, 113, 113);
   --green: rgb(156, 255, 177);
+  --yellow: rgb(255, 248, 156);
 
   /* CONFIGURABLE SCHTUFF */
 
