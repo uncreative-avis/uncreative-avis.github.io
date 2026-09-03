@@ -43,6 +43,7 @@ const randomSplashMessages = [
   `my paws r 2 big for the keyboard :(`,
   `my paws r 2 small for the keyboard :(`,
   `my paws r correctly sized for the keyboard :)`,
+  `baps u in the face with my big fluffy fucking paws`,
   
   // SEAM......
   `seam deltarune my beloved`, `#1 seam deltarune enjoyer`, `plutchie......`,
@@ -56,7 +57,7 @@ const randomSplashMessages = [
   `y'know maybe the name "uncreative avis" isn't the most accurate...`,
   `did u know you can press F5 to refresh the page? come back later for more computer's tip's!`,
   `oh hey the html and css are -- oh. oh damn they're really going at it. oh shit and js is joining?!`,
-  `*SQUEAKY TOY NOISE*`, `:rivet:`, `:terror:`, `YOU FUCKING IDIOT /ref`, `use localsend`,
+  `*SQUEAKY TOY NOISE*`, `:rivet:`, `:terror:`, `YOU FUCKING IDIOT /ref`, `use localsend`, `horses dni`,
   
   // LYRICS
   `♪ we gotta get you working overtime / no second guessing when your life's on the line ♪`, // atsuover - OVERTiME
@@ -72,6 +73,8 @@ const randomSplashMessages = [
     // Scarlet Hollow
     // `Tip: Dialogue options marked (Romance) will start a romantic arc with the character you're talking to, and will lock you out of romantic arcs with other characters.`,
       `Dammit, kid, you're makin' it sound all queer!`, // Julius, Episode 5
+      `Stella, stop sneaking into my mines. Please, I am literally begging you.`, // Tabitha, Episode 2
+      `• (Lie) "I'm allergic to soap and can't wash my hands."`, // Player choice, Episode 3
     // Slay the Princess
       `You're on a path in the woods. And at the end of that path is a cabin. And in the basement of that cabin is a princess. You're here to slay her. If you don't, it will be the end of the world.`,
       `Heart. Lungs. Liver. Nerves.`,
@@ -83,6 +86,10 @@ const randomSplashMessages = [
       `Hee hee! What's going on!? Is the whole world revolving!?`,
       // Seth
       `What the book are you guys doing here!?`, `THOSE WERE MY TACTICAL DIAGRAMS!!!`,
+      // Yellow
+      `Seth, I found them creams. They's steam.`,
+      // That one fuckass Floradinn with the big fluffy $$$$-ing tail
+      `(Swishes my big fluffy $$$$-ing tail)`, `W-woah!!! (destroys buildings because it's so big) YOU GUYS!!!`,
   
   // INSIDE JOKES
   `i keep accidentally typing lesbian instead of vegan i need to go to bed`,
@@ -93,11 +100,12 @@ const randomSplashMessages = [
   `i am genocides about these things`,
   `i am neutral about these things`,
   `i am true pacifists about these things`,
+  `envy kills a man to get her Tesco Meal Deal`,
   
   // ENCOURAGEMENT
   `make a website it's actually worth it`, `you've got this`, `"there is still time" - I Saw the TV Glow (2024)`,
   `as long as you're not harming anyone, do whatever you want forever`,
-  `cringe culture is dead do whatever you want forever`,
+  `cringe culture is dead do whatever you want forever`, `you don't need ai to do it for you, you've got this`,
   
   // MIGHT BE A 'LIL TOO EDGY, MAY REMOVE
   `google docs made about me: ${googleDocCount}`,
