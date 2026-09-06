@@ -57,11 +57,18 @@ const randomSplashMessages = [
   `y'know maybe the name "uncreative avis" isn't the most accurate...`,
   `did u know you can press F5 to refresh the page? come back later for more computer's tip's!`,
   `oh hey the html and css are -- oh. oh damn they're really going at it. oh shit and js is joining?!`,
-  `*SQUEAKY TOY NOISE*`, `:rivet:`, `:terror:`, `YOU FUCKING IDIOT /ref`, `use localsend`, `horses dni`,
+  `*SQUEAKY TOY NOISE*`, `:rivet:`, `:terror:`, `YOU FUCKING IDIOT /ref`, `horses dni`,
+  `ugly rat.jpg and cheese.jpeg are the doomed yaoi on my desktop`,
+
+  // SOFTWARE RECS
+  `use localsend to transfer files between your devices!`, `use ren'py to make a visual novel easily!`,
+  `use photopea for image editing!`, `use godot to make a video game!`, `use audacity for audio editing!`,
+  `use neocities to host a website!`, ``,
   
   // LYRICS
-  `♪ we gotta get you working overtime / no second guessing when your life's on the line ♪`, // atsuover - OVERTiME
+  `♪ WE GOTTA GET YOU WORKING OVERTiME / NO SECOND GUESSING WHEN YOUR LIFE'S ON THE LINE ♪`, // atsuover - OVERTiME
   `♪ I've been everywhere / Through every undefended door ♪`, // Ninajirachi & Porter Robinson - WannaCry
+  `♪ I've got a song that nobody knows / I put it on when nobody's home ♪`, // Ninajirachi - iPod Touch
   `♪ I love your puppy-dog head / But I wanna know what's under it ♪`, // passengerprincess - HEADLESS LOUNGE
   `♪ Love to take it slow / (ROLL THE KATAMARI) ♪`, // Femtanyl - KATAMARI
   `♪ There are wires overhead and there are wires in your hands ♪`, // Femtanyl - GIRL HELL 1999
@@ -130,6 +137,9 @@ const randomSplashMessages = [
 // https://ryangjchandler.co.uk/posts/get-a-random-element-from-a-javascript-array
 function randomizeSplashText() {
   const splashText = document.getElementById('splash');
+  if (!splashText) {
+    return;
+  }
   const selectedMessage = randomSplashMessages[[Math.floor(Math.random() * randomSplashMessages.length)]];
   splashText.innerText = selectedMessage;
 };
