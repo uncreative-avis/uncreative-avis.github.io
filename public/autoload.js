@@ -18,7 +18,11 @@ window.addEventListener('scroll', () => {
 function getDateShit() {
   const modifiedDate = new Date(document.lastModified);
   const options = { day: 'numeric', month: 'long', year: 'numeric' };
-  document.getElementById('lastUpdateDate').textContent = modifiedDate.toLocaleDateString('en-GB', options);
+  const dateText = document.getElementById('lastUpdateDate')
+  if (!dateText) {
+    return;
+  }
+  dateText.textContent = modifiedDate.toLocaleDateString('en-GB', options);
 };
 
 function showAO3Warning() {
