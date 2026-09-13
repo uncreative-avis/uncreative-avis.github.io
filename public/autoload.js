@@ -48,10 +48,14 @@ const randomSplashMessages = [
   `my paws r 2 small for the keyboard :(`,
   `my paws r correctly sized for the keyboard :)`,
   `baps u in the face with my big fluffy fucking paws`,
+  `baps u on the snout with my big fluffy fucking paws`,
+  `pets u on the head with my big fluffy fucking paws`,
   
   // SEAM......
   `seam deltarune my beloved`, `#1 seam deltarune enjoyer`, `plutchie......`,
-  `love that plutchie cat`, `married to seam deltarune real`,
+  `love that plutchie cat`, `married to seam deltarune real`, `See you again... Or not. Ha ha ha ha...`,
+  `Should they have a large fluffy tail? Or, maybe it was torn off, by cruel and loving hands.`,
+  `"The power of lost dreams."`,
   
   // FUN
   `undertale taught me gay people exist and look at me now`,
@@ -104,7 +108,7 @@ const randomSplashMessages = [
   
   // INSIDE JOKES
   `i keep accidentally typing lesbian instead of vegan i need to go to bed`,
-  `RITA DON'T MOVE`,
+  `RITA DON'T MOVE`, `NOT MY ONE DOLLAR MAKEUP SET`, `It's okay! ALSO HELP I'M TRAPPED IN THE VENDINF MACHINE`,
   `⭐ Avis Star of Approval`,
   `Let's go get our genders back!`,
   `don't let us drown in mud and tar`,
@@ -112,6 +116,11 @@ const randomSplashMessages = [
   `i am neutral about these things`,
   `i am true pacifists about these things`,
   `envy kills a man to get her Tesco Meal Deal`,
+  `fell into aperture science blender`,
+  `So...many..."HUNGRY" MIDDLE-AGED WOMEN!!! #FiftyShadesofAwkward`, // that one matpat tweet
+  `Nods my big beautiful head`,
+  `Holy macaroni! Mmm... macaroni!`,
+  `noo, they cut my head off and turned me into a robot!`, // bumdibblerousgoosiac on tiktok
   
   // ENCOURAGEMENT
   `make a website it's actually worth it`, `you've got this`, `"there is still time" - I Saw the TV Glow (2024)`,
