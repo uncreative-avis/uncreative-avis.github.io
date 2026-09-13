@@ -322,11 +322,6 @@ button:active {
   -webkit-transform: scale(var(--active-size));
 }
 
-.navbar {
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-}
-
 .navbar ul{
   font-family: var(--nav-font);
   list-style-type: none;
