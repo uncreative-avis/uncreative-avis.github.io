@@ -10,6 +10,12 @@
     <link rel="icon" type="image/png" href="images/stylised_icon.png">
   
     <style>
+      /* css is both fun and hellish */
+      :root {
+        --project-card-base-width: 300px;
+        --project-card-max-width: 33vw;
+      }
+
       .project-container {
         display: flex;
         justify-content: center;
@@ -20,7 +26,7 @@
 
       .project-card {
         background-color: var(--container-bg);
-        max-width: 33vw;
+        max-width: var(--project-card-max-width);
         box-shadow: 0px 0px 10px var(--shadow-glow);
         border-radius: var(--radius-xl);
         padding: 1.5em;
@@ -28,9 +34,9 @@
         display: flex;
         flex-grow: 1;
         flex-shrink: 1;
-        flex-basis: 300px;
+        flex-basis: var(--project-card-base-width);
         flex-direction: column;
-        gap: 1em;
+        gap: 1rem;
       }
 
       .project-card img {
@@ -155,9 +161,7 @@
     <h2>GAMEDEV</h2>
     <div class="project-container">
 
-      <div class="project-card">
-        <h3>Five Nights at Sonic's: Remastered [UNOFFICIAL]</h3>
-
+      <div class="project-card"> <h3>Five Nights at Sonic's: Remastered [UNOFFICIAL]</h3>
         <a href="https://gamejolt.com/games/sonic-sez-five-night-freddy/1087938" target="_blank" class="rotate">
           <img src="images/portfolio/fnas_remastered.webp" class="glow bordered" alt="FNAS Remastered thumbnail. On a staticy background, a version of Sonic the Hedgehog with black-and-red eyes and wearing a top hat and bow tie is visible. To the left, text reads Five Nights at Sonic's REMASTERED.">
         </a>
@@ -171,7 +175,7 @@
           </div>
         </div>
 
-        <div class="box">
+        <div>
           <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">deployed_code</span>
             Status:</strong> In development<br>
           <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">link_2</span>
@@ -184,9 +188,8 @@
           </p>
         </div> 
       </div>
-      <div class="project-card">
-        <h3>Treasure Island: Classic Remix</h3>
 
+      <div class="project-card"> <h3>Treasure Island: Classic Remix</h3>
         <a href="https://gamejolt.com/games/TICR/1003804" target="_blank" class="rotate">
           <img src="images/portfolio/ticr.webp" class="glow bordered" alt="TICR thumbnail. In a dark, foresty area, a man stands upright next to a Mickey Mouse silhouette. A massive face looking like distant mountains is visible.">
         </a>
@@ -200,9 +203,9 @@
           </div>
         </div>
 
-        <div class="box">
+        <div>
           <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">deployed_code</span>
-            Status:</strong> Complete<br>
+            Status:</strong> Released (July 1st, 2026)<br>
           <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">link_2</span>
             Links:</strong> <a href="https://gamejolt.com/games/TICR/1003804" target="_blank">Game Jolt<span class="material-symbols-rounded" aria-hidden="true">arrow_outward</span></a><br>
           <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">assignment</span>
@@ -215,9 +218,34 @@
           </p>
         </div> 
       </div>
-      <div class="project-card">
-        <h3>The Return to Freddy's 2 - Reimagined</h3>
+      
+      <div class="project-card"> <h3>TRTF 2 - Tacoman Edition</h3>
+        <a href="https://gamejolt.com/games/TRTF2tacoupdate/1033032" target="_blank" class="rotate">
+          <img src="images/portfolio/trtf2tacoman.webp" class="glow bordered" alt="TRTF 2 Tacoman Edition thumbnail. On a green and black gradient background, a stylised model of Freddy Fazbear is on the left, staring at us. To the right, the number 2 is visible in a digital clock font.">
+        </a>
         
+        <div class="horizontal">
+          <div class="software-icon-with-text">
+            <img src="images/portfolio/clickteam_icon.webp" title="Clickteam Fusion 2.5" alt="Clickteam Icon"> Clickteam Fusion 2.5
+          </div>
+        </div>
+        
+        <div>
+          <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">deployed_code</span>
+            Status:</strong> Released (November 2025); v2.0 in dev<br>
+          <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">link_2</span>
+            Links:</strong> <a href="https://gamejolt.com/games/TRTF2tacoupdate/1033032" target="_blank">Game Jolt<span class="material-symbols-rounded" aria-hidden="true">arrow_outward</span></a><br>
+          <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">assignment</span>
+            Roles:</strong> Programming, Captioning<br>
+          <hr>
+          <p class="project-desc">
+            I was brought on the team late in development to do captions for in-game calls,
+            and similarly to 2R, I was allowed to do additional UI work.
+          </p>
+        </div>
+      </div>
+      
+      <div class="project-card"> <h3>The Return to Freddy's 2 - Reimagined</h3>
         <a href="https://gamejolt.com/games/trtf2reimagined/674191" target="_blank" class="rotate">
           <img src="images/portfolio/2reimagined.webp" class="glow bordered" alt="TRTF 2 Reimagined thumbnail. A silhouette of bear head with a top hat floats in a dark void with a yellow-and-purple logo next to it, reading 'THE RETURN TO FREDDY'S 2: REIMAGINED.">
         </a>
@@ -228,9 +256,9 @@
           </div>
         </div>
 
-        <div class="box">
+        <div>
           <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">deployed_code</span>
-            Status:</strong> Complete<br>
+            Status:</strong> Released (July 8th, 2025)<br>
           <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">link_2</span>
             Links:</strong> <a href="https://gamejolt.com/games/trtf2reimagined/674191" target="_blank">Game Jolt<span class="material-symbols-rounded" aria-hidden="true">arrow_outward</span></a><br>
           <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">assignment</span>
@@ -244,40 +272,12 @@
           </p>
           </div>
         </div>
-      <div class="project-card">
-        <h3>TRTF 2 - Tacoman Edition</h3>
-        <a href="https://gamejolt.com/games/TRTF2tacoupdate/1033032" target="_blank" class="rotate">
-          <img src="images/portfolio/trtf2tacoman.webp" class="glow bordered" alt="TRTF 2 Tacoman Edition thumbnail. On a green and black gradient background, a stylised model of Freddy Fazbear is on the left, staring at us. To the right, the number 2 is visible in a digital clock font.">
-        </a>
-        
-        <div class="horizontal">
-          <div class="software-icon-with-text">
-            <img src="images/portfolio/clickteam_icon.webp" title="Clickteam Fusion 2.5" alt="Clickteam Icon"> Clickteam Fusion 2.5
-          </div>
-        </div>
-        
-        <div class="box">
-          <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">deployed_code</span>
-            Status:</strong> Complete; v2.0 in dev<br>
-          <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">link_2</span>
-            Links:</strong> <a href="https://gamejolt.com/games/TRTF2tacoupdate/1033032" target="_blank">Game Jolt<span class="material-symbols-rounded" aria-hidden="true">arrow_outward</span></a><br>
-          <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">assignment</span>
-            Roles:</strong> Programming, Captioning<br>
-          <hr>
-          <p class="project-desc">
-            I was brought on the team late in development to do captions for in-game calls,
-            and similarly to 2R, I was allowed to do additional UI work.
-          </p>
-        </div>
-      </div>
     </div>
 
     <h2>CAPTIONING</h2>
     <div class="project-container">
       
-      <div class="project-card">
-        <h3>Late night VRChat OMORI Shenanigans</h3>
-        
+      <div class="project-card"> <h3>Late night VRChat OMORI Shenanigans</h3>
         <a href="https://youtu.be/aQ9OEltsxYQ" target="_blank" class="rotate">
           <img src="images/portfolio/latenightvrchatomori.webp" class="glow bordered" alt="Late night VRChat OMORI Shenanigans thumbnail. An extreme closeup of a VRChat model of Sunny from Omori, with text on the top reading 'i LOVE omori!'. A small, oddly-angled picture of Basil is visible in the corner.">
         </a>
@@ -288,7 +288,7 @@
           </div>
         </div>
 
-        <div class="box">
+        <div>
           <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">subtitles</span>
             Captions:</strong> English, Stylised<br>
           <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">link_2</span>
@@ -302,9 +302,7 @@
         </div>
       </div>
 
-      <div class="project-card">
-        <h3>Ring of Thorns - DELTARUNE Animatic</h3>
-        
+      <div class="project-card"> <h3>Ring of Thorns - DELTARUNE Animatic</h3>
         <a href="https://youtu.be/OaEyFvvKgYw" target="_blank" class="rotate">
           <img src="images/portfolio/ring_of_thorns.webp" class="glow bordered" alt="Ring of Thorns Animatic thumbnail. A greyscale closeup of Kris and Noelle from DELTARUNE. Kris has a blank expression, staring intensely at Noelle, gripping her wrist tightly. Noelle is staring back in fear.">
         </a>
@@ -315,7 +313,7 @@
           </div>
         </div>
 
-        <div class="box">
+        <div>
           <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">subtitles</span>
             Captions:</strong> Japanese, Standard<br>
           <strong class="label"><span class="material-symbols-rounded" aria-hidden="true">link_2</span>
