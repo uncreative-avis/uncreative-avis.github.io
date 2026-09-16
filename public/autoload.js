@@ -71,7 +71,7 @@ const randomSplashMessages = [
   // SOFTWARE RECS
   `use localsend to transfer files between your devices!`, `use ren'py to make a visual novel easily!`,
   `use photopea for image editing!`, `use godot to make a video game!`, `use audacity for audio editing!`,
-  `use neocities to host a website!`, ``,
+  `use neocities to host a website!`,
   
   // LYRICS
   `♪ WE GOTTA GET YOU WORKING OVERTiME / NO SECOND GUESSING WHEN YOUR LIFE'S ON THE LINE ♪`, // atsuover - OVERTiME
