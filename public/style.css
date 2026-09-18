@@ -233,7 +233,8 @@ img.drop-shadow {
 
 a:focus-visible,
 button:focus-visible,
-summary:focus-visible {
+summary:focus-visible,
+textarea:focus-visible {
   outline: 2px solid var(--link-hover);
   outline-offset: 3px;
 }
