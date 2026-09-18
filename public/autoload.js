@@ -67,6 +67,7 @@ const randomSplashMessages = [
   `oh hey the html and css are -- oh. oh damn they're really going at it. oh shit and js is joining?!`,
   `*SQUEAKY TOY NOISE*`, `:rivet:`, `:terror:`, `YOU FUCKING IDIOT /ref`, `horses dni`,
   `ugly rat.jpg and cheese.jpeg are the doomed yaoi on my desktop`,
+  `all my slop is human-made`,
 
   // SOFTWARE RECS
   `use localsend to transfer files between your devices!`, `use ren'py to make a visual novel easily!`,
@@ -139,6 +140,7 @@ const randomSplashMessages = [
   `"Me when my dad orders fast food after a week but I trip on the stairs" - Riley, March 20th 2025, 11:19 pm`,
   `"RUNNNN THAT MF IS LIDL JEFF THE KILLER" - Riley, March 4th 2025, 11:08 pm`,
   `"AT LEAST HE DOESNT LOOK LIKE HE'D DISSOLVE BY BEING HIT BY A LIGHT BREEZE" - Avis, November 20th 2023, 7:52 am`,
+  `"come get yoir meal avis" - Hazel, July 22nd 2025, 9:49 am`,
   
   // THE COMMENTED OUT SECTION OF DEATH AND DESPAIR
   /*
