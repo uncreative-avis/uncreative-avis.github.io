@@ -106,6 +106,9 @@ const randomSplashMessages = [
       `Seth, I found them creams. They's steam.`,
       // That one fuckass Floradinn with the big fluffy $$$$-ing tail
       `(Swishes my big fluffy $$$$-ing tail)`, `W-woah!!! (destroys buildings because it's so big) YOU GUYS!!!`,
+    // BoJack Horseman
+      `Fool me once, shame on me, but fool me twice... fiddle dee dee.`, // Mr. Peanutbutter, S1E4
+      `Fool me once, fool me twice, fool me chicken soup with rice.`, // Todd, S1E4
   
   // INSIDE JOKES
   `i keep accidentally typing lesbian instead of vegan i need to go to bed`,
@@ -122,6 +125,7 @@ const randomSplashMessages = [
   `Nods my big beautiful head`,
   `Holy macaroni! Mmm... macaroni!`,
   `noo, they cut my head off and turned me into a robot!`, // bumdibblerousgoosiac on tiktok
+  `😺 <- certified freak`,
   
   // ENCOURAGEMENT
   `make a website it's actually worth it`, `you've got this`, `"there is still time" - I Saw the TV Glow (2024)`,
@@ -141,6 +145,7 @@ const randomSplashMessages = [
   `"RUNNNN THAT MF IS LIDL JEFF THE KILLER" - Riley, March 4th 2025, 11:08 pm`,
   `"AT LEAST HE DOESNT LOOK LIKE HE'D DISSOLVE BY BEING HIT BY A LIGHT BREEZE" - Avis, November 20th 2023, 7:52 am`,
   `"come get yoir meal avis" - Hazel, July 22nd 2025, 9:49 am`,
+  `"no, starclan is the antichrist" - Avis, September 14th 2026, 10:10 pm`,
   
   // THE COMMENTED OUT SECTION OF DEATH AND DESPAIR
   /*
