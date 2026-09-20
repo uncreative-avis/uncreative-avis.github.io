@@ -40,7 +40,7 @@
   --bg-light: rgba(128, 82, 134, 0.75);
 
   --shadow-glow: rgb(163, 73, 164);
-  --glow-glow: rgb(255, 113, 208);
+  --active-glow: rgb(255, 113, 208);
 
   --radius-sm:   0.25rem;
   --radius-lg:   0.33rem;
@@ -124,14 +124,14 @@ summary:hover, summary:focus {
   -webkit-transform: scale(calc(var(--hover-size) * 0.975));
   border-radius: var(--radius-lg);
   background-color: var(--bg-light);
-  box-shadow: 0px 0px 15px var(--glow-glow);
+  box-shadow: 0px 0px 15px var(--active-glow);
 }
 
 summary:active {
   transform: scale(calc(var(--active-size) * 1.05));
   -webkit-transform: scale(calc(var(--active-size) * 1.05));
   background-color: var(--bg-light);
-  box-shadow: 0px 0px 15px var(--glow-glow);
+  box-shadow: 0px 0px 15px var(--active-glow);
 }
 
 details {
@@ -185,7 +185,7 @@ a:hover, a:focus {
   border-radius: var(--radius-lg);
   color: var(--link-hover);
   background-color: var(--bg-light);
-  box-shadow: 0px 0px 15px var(--glow-glow);
+  box-shadow: 0px 0px 15px var(--active-glow);
   transform: scale(var(--hover-size));
   -webkit-transform: scale(var(--hover-size));
 }
@@ -200,7 +200,7 @@ a:active {
   border-radius: var(--radius-xl);
   transform: scale(var(--active-size));
   -webkit-transform: scale(var(--active-size));
-  box-shadow: 0px 0px 15px var(--glow-glow);
+  box-shadow: 0px 0px 15px var(--active-glow);
 }
 
 a.no-box {
@@ -313,7 +313,7 @@ button:hover, button:focus {
 
 button:active {
   background-color: var(--bg-light);
-  box-shadow: 0px 0px 15px var(--glow-glow);
+  box-shadow: 0px 0px 15px var(--active-glow);
   border-radius: var(--radius-xl);
   transform: scale(var(--active-size));
   -webkit-transform: scale(var(--active-size));
