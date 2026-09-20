@@ -365,6 +365,10 @@ button:active {
   height: 2.5rem; margin-top: 1rem;
 }
 
+.size-in-anim {
+  animation: size-in 1s var(--ease);
+}
+
 .sway-anim{
   animation:
     size-in 1s var(--ease),
@@ -404,6 +408,9 @@ button:active {
     scroll-behavior: auto !important;
   }
   .sway-anim {
+    animation: none !important;
+  }
+  .size-in-anim {
     animation: none !important;
   }
 }

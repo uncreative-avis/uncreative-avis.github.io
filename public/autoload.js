@@ -157,6 +157,7 @@ function randomizeSplashText() {
   }
   const selectedMessage = randomSplashMessages[[Math.floor(Math.random() * randomSplashMessages.length)]];
   splashText.innerText = selectedMessage;
+  splashText.classList.add("size-in-anim")
 };
 
 getDateShit();
