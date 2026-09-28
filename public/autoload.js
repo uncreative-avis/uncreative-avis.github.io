@@ -42,7 +42,8 @@ const randomSplashMessages = [
   `just a cat, meow meow`, `just a dog, bark bark`, `just a mouse, squeak squeak`, `just a bird, sQUACK`,
   
   // PAWBS
-  `made with my own two paws!`, `my paws!`, `plutchie in my paws`,
+  `made with my own two paws!`, `made with my own two (or more) paws!`,
+  `my paws!`, `plutchie in my paws`,
   `my paws r okay-sized for the keyboard :|`,
   `my paws r 2 big for the keyboard :(`,
   `my paws r 2 small for the keyboard :(`,
@@ -67,7 +68,7 @@ const randomSplashMessages = [
   `oh hey the html and css are -- oh. oh damn they're really going at it. oh shit and js is joining?!`,
   `*SQUEAKY TOY NOISE*`, `:rivet:`, `:terror:`, `YOU FUCKING IDIOT /ref`, `horses dni`,
   `ugly rat.jpg and cheese.jpeg are the doomed yaoi on my desktop`,
-  `all my slop is human-made`,
+  `all my slop is human-made`, `:steamhappy:`, `join me on my blowup journey [EXPLOSION]`,
 
   // SOFTWARE RECS
   `use localsend to transfer files between your devices!`, `use ren'py to make a visual novel easily!`,
@@ -125,7 +126,8 @@ const randomSplashMessages = [
   `Nods my big beautiful head`,
   `Holy macaroni! Mmm... macaroni!`,
   `noo, they cut my head off and turned me into a robot!`, // bumdibblerousgoosiac on tiktok
-  `😺 <- certified freak`,
+  `why are you talking to miners, are you problematic medias :/`,
+  `😺 <- certified freak`, `this vexes me`,
   
   // ENCOURAGEMENT
   `make a website it's actually worth it`, `you've got this`, `"there is still time" - I Saw the TV Glow (2024)`,
