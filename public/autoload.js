@@ -26,7 +26,7 @@ function getDateShit() {
 };
 
 function showAO3Warning() {
-  const text = `Heads up: My AO3 has (or at least *will* have) some works that have selfshipping and some potentially upsetting themes. Tags are your friend!\n\nPress OK to proceed or Cancel to go back.`;
+  const text = `Heads up: My AO3 has some works that have selfshipping and some potentially upsetting themes. Tags are your friend!\n\nPress OK to proceed or Cancel to go back.`;
 
   const link = "https://archiveofourown.org/users/avis_just_exists/";
 
