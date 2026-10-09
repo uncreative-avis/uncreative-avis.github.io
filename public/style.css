@@ -158,6 +158,17 @@ strong.label {
   padding: 5px;
   padding-right: 10px;
   line-height: 3rem;
+  
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: var(--container-bg);
+}
+
+strong.label-warning {
+  background-color: var(--red);
+  corner-shape: notch;
+  color: var(--container-bg);
+  text-shadow: none;
 }
 
 a {
