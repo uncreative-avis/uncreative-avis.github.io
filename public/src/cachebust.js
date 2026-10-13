@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     // Path to your CSS file (like usual), or empty ("") if you don't have one:
-    const CSS_FILE_PATH = "style.css"; 
+    const CSS_FILE_PATH = "css/style.css"; 
     
     // Path to your JS file (like usual), or empty ("") if you don't have one:
     const JS_FILE_PATH = "src/autoload.js"; 
