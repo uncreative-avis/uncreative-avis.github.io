@@ -6,13 +6,13 @@
 
 @font-face {
   font-family: OpenDyslexic;
-  src: url('fonts/OpenDyslexic-Regular.woff2') format('woff2'),
-        url('fonts/OpenDyslexic-Regular.woff') format('woff');
+  src: url('../fonts/OpenDyslexic-Regular.woff2') format('woff2'),
+        url('../fonts/OpenDyslexic-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: JetBrains Mono;
-  src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  src: url('../fonts/JetBrainsMono-Regular.woff2') format('woff2');
 }
 
 :root {
