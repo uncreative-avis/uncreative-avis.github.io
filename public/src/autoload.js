@@ -96,17 +96,17 @@ const randomSplashMessages = [
     `You're on a path in the woods. And at the end of that path is a cabin. And in the basement of that cabin is a princess. You're here to slay her. If you don't, it will be the end of the world.`,
     `Heart. Lungs. Liver. Nerves.`,
     // DELTARUNE
-    // Flowery
-    `We could even call it a "pacifist root".`, `Jarona!`, `Ja-orange!`, `Just-- kidding!`, `It's my Jarona!`,
-    `Ten feet twenty the flower man`,
-    // Aqua
-    `Hee hee! What's going on!? Is the whole world revolving!?`,
-    // Seth
-    `What the book are you guys doing here!?`, `THOSE WERE MY TACTICAL DIAGRAMS!!!`,
-    // Yellow
-    `Seth, I found them creams. They's steam.`,
-    // That one fuckass Floradinn with the big fluffy $$$$-ing tail
-    `(Swishes my big fluffy $$$$-ing tail)`, `W-woah!!! (destroys buildings because it's so big) YOU GUYS!!!`,
+        // Flowery
+        `We could even call it a "pacifist root".`, `Jarona!`, `Ja-orange!`, `Just-- kidding!`, `It's my Jarona!`,
+        `Ten feet twenty the flower man`,
+        // Aqua
+        `Hee hee! What's going on!? Is the whole world revolving!?`,
+        // Seth
+        `What the book are you guys doing here!?`, `THOSE WERE MY TACTICAL DIAGRAMS!!!`,
+        // Yellow
+        `Seth, I found them creams. They's steam.`,
+        // That one fuckass Floradinn with the big fluffy $$$$-ing tail
+        `(Swishes my big fluffy $$$$-ing tail)`, `W-woah!!! (destroys buildings because it's so big) YOU GUYS!!!`,
     // BoJack Horseman
     `Fool me once, shame on me, but fool me twice... fiddle dee dee.`, // Mr. Peanutbutter, S1E4
     `Fool me once, fool me twice, fool me chicken soup with rice.`, // Todd, S1E4
@@ -128,6 +128,7 @@ const randomSplashMessages = [
     `noo, they cut my head off and turned me into a robot!`, // bumdibblerousgoosiac on tiktok
     `why are you talking to miners, are you problematic medias :/`,
     `😺 <- certified freak`, `this vexes me`,
+    `returning to freddy's bumhole two`, `WHY IS WILLIAM AFTON IN THE SOVIET UNION`,
 
     // ENCOURAGEMENT
     `make a website it's actually worth it`, `you've got this`, `"there is still time" - I Saw the TV Glow (2024)`,
