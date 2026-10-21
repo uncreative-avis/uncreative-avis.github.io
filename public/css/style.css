@@ -180,6 +180,10 @@ strong.label-warning {
   text-shadow: none;
 }
 
+.small-text {
+  font-size: 0.8rem;
+}
+
 a {
   display: inline-block;
   border-radius: var(--radius-xxl);
